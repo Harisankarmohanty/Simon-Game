@@ -1,7 +1,6 @@
 # Simon-Game
 TechStacks Used: HTML, CSS, JavaScript
-simon-game/
-│
+simon-game
 ├── index.html          
 ├── style.css           
 ├── app.js             
