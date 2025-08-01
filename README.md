@@ -34,7 +34,7 @@ This classic Simon Game tests your memory by repeating increasingly long sequenc
 
 1. Clone this repo:
 
-
+https://github.com/Harisankarmohanty/Simon-Game.git
 
 2. Open `index.html` in your favorite browser.
 
