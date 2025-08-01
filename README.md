@@ -3,6 +3,7 @@ TechStacks Used: HTML, CSS, JavaScript
 
 
 simon-game
+
 ├── index.html          
 ├── style.css           
 ├── app.js             
