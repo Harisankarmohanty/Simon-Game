@@ -1,0 +1,84 @@
+body {
+    min-height: 100vh;
+    background: #18181b;
+    color: #fff;
+    font-family: 'Inter', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h1,
+h2 {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #e5e5e5;
+}
+
+.btn-container {
+    /* height: 500px; */
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    height: 120px;
+    width: 120px;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    background: #232326;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    cursor: pointer;
+    transition: transform 0.07s, box-shadow 0.2s;
+    outline: none;
+    font-size: 1.1rem;
+}
+
+.red {
+    background: linear-gradient(135deg, #FF5D6C, #D62246);
+}
+
+.yellow {
+    background: linear-gradient(135deg, #FFD86A, #FFB700);
+    color: #18181b;
+}
+
+.green {
+    background: linear-gradient(135deg, #30E3CA, #11998E);
+}
+
+.purple {
+    background: linear-gradient(135deg, #7F53FF, #6495ED);
+}
+
+.btn.flash {
+    filter: brightness(2);
+    box-shadow: 0 0 30px 8px #fff9, 0 6px 24px rgba(0, 0, 0, 0.22);
+    transform: scale(1.08);
+}
+
+.bg {
+    animation: bgflash 0.5s;
+}
+
+@keyframes bgflash {
+    from {
+        background: #e74c3c;
+    }
+
+    to {
+        background: #18181b;
+    }
+}
